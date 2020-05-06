@@ -1,0 +1,4 @@
+*.kicad_pcb-bak
+*.sch-bak
+/68_vag_PNP-cache.lib
+/fp-info-cache

@@ -1,0 +1,2756 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 4
+Title "68 Vag PNP"
+Date "2020-05-06"
+Rev "R0.1"
+Comp "rusEFI"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L rusFEI_963356-1:963356-1 P1
+U 1 1 5E3F314A
+P -1600 550
+F 0 "P1" H -1500 450 50  0000 R CNN
+F 1 "1123038-2" H -1375 550 50  0000 R CNN
+F 2 "rusEFI_Modules:963356-1" V 150 -450 50  0001 C CNN
+F 3 "" V 150 1150 50  0001 C CNN
+	1    -1600 550 
+	-1   0    0    1   
+$EndComp
+Text Label 1550 7750 0    50   ~ 0
+2C
+Text Label 1550 7650 0    50   ~ 0
+2F
+Text Label 6675 6775 0    50   ~ 0
+2C
+Text Label 1550 7550 0    50   ~ 0
+2I
+Text Label 1550 7350 0    50   ~ 0
+2O
+Text Label 1550 7250 0    50   ~ 0
+2R
+Text Label 1550 7050 0    50   ~ 0
+3C
+Text Label 1550 6950 0    50   ~ 0
+3F
+Text Label 1550 6850 0    50   ~ 0
+3I
+Text Label 1550 6650 0    50   ~ 0
+3O
+Text Label 1550 6450 0    50   ~ 0
+3T
+Text Label 1550 6350 0    50   ~ 0
+3W
+Text Label 1550 6250 0    50   ~ 0
+3Z
+Text Label 1150 6050 0    50   ~ 0
+4
+Text Label 4100 7750 0    50   ~ 0
+2A
+Text Label 4100 7650 0    50   ~ 0
+2D
+Text Label 4100 7550 0    50   ~ 0
+2G
+Text Label 4100 7450 0    50   ~ 0
+2J
+Text Label 4100 7350 0    50   ~ 0
+2M
+Text Label 4100 7250 0    50   ~ 0
+2P
+Text Label 6675 5575 0    50   ~ 0
+2A
+Text Label 6675 5725 0    50   ~ 0
+2D
+Text Label 6675 5875 0    50   ~ 0
+2G
+Text Label 6675 6025 0    50   ~ 0
+2J
+Text Label 6525 5575 2    50   ~ 0
+INJ1
+Text Label 6525 5725 2    50   ~ 0
+INJ2
+Text Label 6525 5875 2    50   ~ 0
+INJ3
+$Comp
+L Connector:TestPoint_2Pole W2J1
+U 1 1 5E4210A5
+P 3900 7450
+F 0 "W2J1" H 3900 7553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7450 50  0001 C CNN
+F 3 "~" H 3900 7450 50  0001 C CNN
+F 4 "C17477" H 3900 7450 50  0001 C CNN "LCSC"
+	1    3900 7450
+	1    0    0    -1  
+$EndComp
+Text Label 6525 6025 2    50   ~ 0
+INJ4
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 1 1 5E5AAC33
+P 6175 1925
+F 0 "U3" V 7462 2325 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 7356 2325 60  0000 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 6175 1925 60  0001 C CNN
+F 3 "" H 6175 1925 60  0001 C CNN
+	1    6175 1925
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8575 875 
+NoConn ~ 8575 975 
+NoConn ~ 8575 1075
+NoConn ~ 8025 925 
+NoConn ~ 3525 925 
+NoConn ~ 2975 875 
+NoConn ~ 2975 975 
+NoConn ~ 2975 1075
+Text Label 7125 1450 3    50   ~ 0
+INJ1
+Text Label 7225 1450 3    50   ~ 0
+INJ2
+Text Label 7525 1450 3    50   ~ 0
+INJ3
+Text Label 7625 1450 3    50   ~ 0
+INJ4
+$Comp
+L power:GND #PWR0101
+U 1 1 5E5C225E
+P 3275 1575
+F 0 "#PWR0101" H 3275 1325 50  0001 C CNN
+F 1 "GND" H 3280 1402 50  0000 C CNN
+F 2 "" H 3275 1575 50  0001 C CNN
+F 3 "" H 3275 1575 50  0001 C CNN
+	1    3275 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E5C278A
+P 3725 1575
+F 0 "#PWR0102" H 3725 1325 50  0001 C CNN
+F 1 "GND" H 3730 1402 50  0000 C CNN
+F 2 "" H 3725 1575 50  0001 C CNN
+F 3 "" H 3725 1575 50  0001 C CNN
+	1    3725 1575
+	1    0    0    -1  
+$EndComp
+Text Label 3375 1450 3    50   ~ 0
+IDLE
+Text Label 3825 1450 3    50   ~ 0
+VVT
+Text Label 4425 1450 3    50   ~ 0
+ALTERNATOR
+Text Label 4525 1450 3    50   ~ 0
+TACH
+Text Label 4025 1450 3    50   ~ 0
+COIL1
+Text Label 4225 1450 3    50   ~ 0
+COIL2
+Text Label 4825 1450 3    50   ~ 0
+USBD+
+Text Label 4675 1450 3    50   ~ 0
+USBD-
+Text Label 6525 6175 2    50   ~ 0
+IDLE
+Text Label 6525 6325 2    50   ~ 0
+VVT
+Text Label 7475 4825 2    50   ~ 0
+COIL1
+Text Label 6525 6475 2    50   ~ 0
+MIL
+Text Label 6525 6625 2    50   ~ 0
+FAN
+Text Label 6775 1450 3    50   ~ 0
+FAN
+Text Label 6675 1450 3    50   ~ 0
+MIL
+Text Label 6675 6625 0    50   ~ 0
+2B
+$Comp
+L Connector:TestPoint_2Pole W2Q1
+U 1 1 5E5EEF7B
+P 2500 7250
+F 0 "W2Q1" H 2500 7353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7250 50  0001 C CNN
+F 3 "~" H 2500 7250 50  0001 C CNN
+F 4 "C17477" H 2500 7250 50  0001 C CNN "LCSC"
+	1    2500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2R1
+U 1 1 5E5EF7AC
+P 1350 7250
+F 0 "W2R1" H 1350 7353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7250 50  0001 C CNN
+F 3 "~" H 1350 7250 50  0001 C CNN
+F 4 "C17477" H 1350 7250 50  0001 C CNN "LCSC"
+	1    1350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2B1
+U 1 1 5E5EF978
+P 2500 7750
+F 0 "W2B1" H 2500 7853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7750 50  0001 C CNN
+F 3 "~" H 2500 7750 50  0001 C CNN
+F 4 "C17477" H 2500 7750 50  0001 C CNN "LCSC"
+	1    2500 7750
+	1    0    0    -1  
+$EndComp
+Text Label 6675 6475 0    50   ~ 0
+2R
+Text Label 7450 6025 2    50   ~ 0
+IAT
+Text Label 7450 6175 2    50   ~ 0
+CLT
+$Comp
+L Connector:TestPoint_2Pole W3C1
+U 1 1 5E5F4AE2
+P 1350 7050
+F 0 "W3C1" H 1350 7153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7050 50  0001 C CNN
+F 3 "~" H 1350 7050 50  0001 C CNN
+F 4 "C17477" H 1350 7050 50  0001 C CNN "LCSC"
+	1    1350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3M1
+U 1 1 5E5F47C9
+P 3900 6650
+F 0 "W3M1" H 3900 6753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6650 50  0001 C CNN
+F 3 "~" H 3900 6650 50  0001 C CNN
+F 4 "C17477" H 3900 6650 50  0001 C CNN "LCSC"
+	1    3900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3I1
+U 1 1 5E5F4428
+P 1350 6850
+F 0 "W3I1" H 1350 6953 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6908 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6850 50  0001 C CNN
+F 3 "~" H 1350 6850 50  0001 C CNN
+F 4 "C17477" H 1350 6850 50  0001 C CNN "LCSC"
+	1    1350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3F1
+U 1 1 5E5F32FE
+P 1350 6950
+F 0 "W3F1" H 1350 7053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6950 50  0001 C CNN
+F 3 "~" H 1350 6950 50  0001 C CNN
+F 4 "C17477" H 1350 6950 50  0001 C CNN "LCSC"
+	1    1350 6950
+	1    0    0    -1  
+$EndComp
+Text Label 7475 5275 2    50   ~ 0
+TACH
+Text Label 7475 5125 2    50   ~ 0
+ALTERNATOR
+Text Label 7475 4975 2    50   ~ 0
+COIL2
+Text Label 5575 1450 3    50   ~ 0
+IAT
+Text Label 5025 1450 3    50   ~ 0
+CLT
+Text Label 7450 6325 2    50   ~ 0
+TPS
+Text Label 9350 5200 2    50   ~ 0
+MAP
+Text Label 9350 4650 2    50   ~ 0
+AFR
+Text Label 5975 1450 3    50   ~ 0
+MAP
+Text Label 6575 1450 3    50   ~ 0
+AFR
+Text Label 5875 1450 3    50   ~ 0
+TPS
+Text Label 7625 5125 0    50   ~ 0
+3M
+Text Label 7625 5275 0    50   ~ 0
+3O
+Text Label 7625 4825 0    50   ~ 0
+3F
+Text Label 7625 4975 0    50   ~ 0
+3I
+Text Label 7450 6475 2    50   ~ 0
+CAM
+Text Label 7450 6625 2    50   ~ 0
+CRANK
+Text Label 7975 1450 3    50   ~ 0
+CRANK
+Text Label 5775 1450 3    50   ~ 0
+CAM
+Text Label 7650 6175 0    50   ~ 0
+4P
+Text Label 7650 6325 0    50   ~ 0
+4V
+Text Label 7650 6025 0    50   ~ 0
+4N
+Text Label 3175 1450 3    50   ~ 0
+12_MAIN_RELAY
+Text Label 3575 1450 3    50   ~ 0
+12_IGN_KEY
+Text Label 6175 1450 3    50   ~ 0
+MAIN_RELAY_CONTROL
+$Comp
+L Connector:TestPoint_2Pole W4AH1
+U 1 1 5E664ACE
+P 1350 4950
+F 0 "W4AH1" H 1350 5053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 4950 50  0001 C CNN
+F 3 "~" H 1350 4950 50  0001 C CNN
+F 4 "C17477" H 1350 4950 50  0001 C CNN "LCSC"
+	1    1350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AE1
+U 1 1 5E664E4C
+P 1350 5050
+F 0 "W4AE1" H 1350 5153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5050 50  0001 C CNN
+F 3 "~" H 1350 5050 50  0001 C CNN
+F 4 "C17477" H 1350 5050 50  0001 C CNN "LCSC"
+	1    1350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AB1
+U 1 1 5E66C120
+P 1350 5150
+F 0 "W4AB1" H 1350 5253 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5208 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5150 50  0001 C CNN
+F 3 "~" H 1350 5150 50  0001 C CNN
+F 4 "C17477" H 1350 5150 50  0001 C CNN "LCSC"
+	1    1350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4W1
+U 1 1 5E66FE66
+P 1350 5350
+F 0 "W4W1" H 1350 5453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5350 50  0001 C CNN
+F 3 "~" H 1350 5350 50  0001 C CNN
+F 4 "C17477" H 1350 5350 50  0001 C CNN "LCSC"
+	1    1350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4N1
+U 1 1 5E671C91
+P 1350 5650
+F 0 "W4N1" H 1350 5753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5650 50  0001 C CNN
+F 3 "~" H 1350 5650 50  0001 C CNN
+F 4 "C17477" H 1350 5650 50  0001 C CNN "LCSC"
+	1    1350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2C1
+U 1 1 5E6EDDD7
+P 1350 7750
+F 0 "W2C1" H 1350 7853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7750 50  0001 C CNN
+F 3 "~" H 1350 7750 50  0001 C CNN
+F 4 "C17477" H 1350 7750 50  0001 C CNN "LCSC"
+	1    1350 7750
+	1    0    0    -1  
+$EndComp
+Text Label 6525 6775 2    50   ~ 0
+AC_FAN
+Text Label 6675 5275 0    50   ~ 0
+4D
+Text Label 6675 5425 0    50   ~ 0
+2P
+Text Label 6675 5125 0    50   ~ 0
+4AF
+Text Label 6675 4975 0    50   ~ 0
+3H
+Text Label 6675 4825 0    50   ~ 0
+4S
+$Comp
+L Connector:TestPoint_2Pole W3V1
+U 1 1 5E713D06
+P 2500 6350
+F 0 "W3V1" H 2500 6453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6350 50  0001 C CNN
+F 3 "~" H 2500 6350 50  0001 C CNN
+F 4 "C17477" H 2500 6350 50  0001 C CNN "LCSC"
+	1    2500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3Y1
+U 1 1 5E714435
+P 2500 6250
+F 0 "W3Y1" H 2500 6353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6250 50  0001 C CNN
+F 3 "~" H 2500 6250 50  0001 C CNN
+F 4 "C17477" H 2500 6250 50  0001 C CNN "LCSC"
+	1    2500 6250
+	1    0    0    -1  
+$EndComp
+Text Label 7650 6475 0    50   ~ 0
+3V
+Text Label 7650 6625 0    50   ~ 0
+3Y
+Text Label 9600 4650 0    50   ~ 0
+2O
+Text Notes 9850 5200 0    50   ~ 0
+Not OEM
+Text Notes 9850 4650 0    50   ~ 0
+Not OEM
+Text Label 9600 5200 0    50   ~ 0
+4U
+$Comp
+L Connector:TestPoint_2Pole W3Z1
+U 1 1 5E724242
+P 1350 6250
+F 0 "W3Z1" H 1350 6353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6250 50  0001 C CNN
+F 3 "~" H 1350 6250 50  0001 C CNN
+F 4 "C17477" H 1350 6250 50  0001 C CNN "LCSC"
+	1    1350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3Q1
+U 1 1 5E73B46B
+P 2500 6550
+F 0 "W3Q1" H 2500 6653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6550 50  0001 C CNN
+F 3 "~" H 2500 6550 50  0001 C CNN
+F 4 "C17477" H 2500 6550 50  0001 C CNN "LCSC"
+	1    2500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3X1
+U 1 1 5E73C54C
+P 3900 6250
+F 0 "W3X1" H 3900 6353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6250 50  0001 C CNN
+F 3 "~" H 3900 6250 50  0001 C CNN
+F 4 "C17477" H 3900 6250 50  0001 C CNN "LCSC"
+	1    3900 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2M1
+U 1 1 5E73C75F
+P 3900 7350
+F 0 "W2M1" H 3900 7453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7350 50  0001 C CNN
+F 3 "~" H 3900 7350 50  0001 C CNN
+F 4 "C17477" H 3900 7350 50  0001 C CNN "LCSC"
+	1    3900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3W1
+U 1 1 5E73C999
+P 1350 6350
+F 0 "W3W1" H 1350 6453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6350 50  0001 C CNN
+F 3 "~" H 1350 6350 50  0001 C CNN
+F 4 "C17477" H 1350 6350 50  0001 C CNN "LCSC"
+	1    1350 6350
+	1    0    0    -1  
+$EndComp
+Text Label 9600 6400 0    50   ~ 0
+3W
+Text Label 9600 6600 0    50   ~ 0
+3X
+Text Label 9600 6800 0    50   ~ 0
+3Z
+Text Notes 9850 6400 0    50   ~ 0
+Not OEM
+Text Notes 9850 6600 0    50   ~ 0
+Not OEM
+Text Notes 9850 6800 0    50   ~ 0
+Not OEM
+Text Notes 9850 5800 0    50   ~ 0
+Not OEM
+Text Label 9600 5800 0    50   ~ 0
+3K
+Text Label 7475 5425 2    50   ~ 0
+FUEL_RELAY
+Text Label 6875 1450 3    50   ~ 0
+FUEL_RELAY
+Text Label 7625 5425 0    50   ~ 0
+2M
+$Comp
+L power:GND #PWR0103
+U 1 1 5E761259
+P 5850 7675
+F 0 "#PWR0103" H 5850 7425 50  0001 C CNN
+F 1 "GND" H 5855 7502 50  0000 C CNN
+F 2 "" H 5850 7675 50  0001 C CNN
+F 3 "" H 5850 7675 50  0001 C CNN
+	1    5850 7675
+	1    0    0    -1  
+$EndComp
+Text Label 5850 7675 0    50   ~ 0
+3A
+Text Label 5850 7475 0    50   ~ 0
+3B
+Text Label 7475 5875 2    50   ~ 0
+ALT_WARN
+Text Label 2225 825  2    50   ~ 0
+ALT_WARN
+Wire Wire Line
+	5850 7275 5850 7675
+Text Label 5850 7275 0    50   ~ 0
+4A
+Text Label 7475 5575 2    50   ~ 0
+5V_SENS1
+Text Label 7475 5725 2    50   ~ 0
+GND_SENS
+Text Label 5375 1450 3    50   ~ 0
+GND_SENS
+Text Label 7825 1450 3    50   ~ 0
+5V_SENS1
+Text Label 7625 5575 0    50   ~ 0
+4L
+Text Label 7625 5725 0    50   ~ 0
+4O
+Text Label 9350 5000 2    50   ~ 0
+5V_SENS2
+Text Label 7325 1450 3    50   ~ 0
+5V_SENS2
+Text Label 7725 1450 3    50   ~ 0
+AC_FAN
+Text Label 8225 1450 3    50   ~ 0
+CAN_L
+Text Label 8325 1450 3    50   ~ 0
+CAN_H
+Text Label 7425 1450 3    50   ~ 0
+AV9_UNUSED
+Text Label 7025 1450 3    50   ~ 0
+AV8_UNUSED
+Text Label 6475 1450 3    50   ~ 0
+AV3_UNUSED
+Text Label 6325 1450 3    50   ~ 0
+AV7_UNUSED
+Text Label 6075 1450 3    50   ~ 0
+AV10_UNUSED
+Text Label 5475 1450 3    50   ~ 0
+AT4_UNUSED
+Text Label 5225 1450 3    50   ~ 0
+AV5_UNUSED
+Text Label 5125 1450 3    50   ~ 0
+AV4_UNUSED
+Text Label 4925 1450 3    50   ~ 0
+GND_SENS
+Text Label 4125 1450 3    50   ~ 0
+HI2_UNUSED
+Text Label 4325 1450 3    50   ~ 0
+HI4_UNUSED
+Text Label 5675 1450 3    50   ~ 0
+AT3_UNUSED
+Text Label 6675 6325 0    50   ~ 0
+4R
+Text Label 6675 6175 0    50   ~ 0
+2Q
+Text Notes 8850 7150 0    50   ~ 0
+MRE could be turned on using external \nUSB cable routed via unused 72 pins
+$Comp
+L Connector:TestPoint_2Pole W3N1
+U 1 1 5E88E68E
+P 2500 6650
+F 0 "W3N1" H 2500 6753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6650 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+F 4 "C17477" H 2500 6650 50  0001 C CNN "LCSC"
+	1    2500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2P1
+U 1 1 5E88E83B
+P 3900 7250
+F 0 "W2P1" H 3900 7353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7250 50  0001 C CNN
+F 3 "~" H 3900 7250 50  0001 C CNN
+F 4 "C17477" H 3900 7250 50  0001 C CNN "LCSC"
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+Text Label 9600 6000 0    50   ~ 0
+3L
+Text Label 9600 6200 0    50   ~ 0
+3N
+Text Notes 9850 6200 0    50   ~ 0
+Not OEM
+Text Notes 9850 6000 0    50   ~ 0
+Not OEM
+Text Label 9600 5000 0    50   ~ 0
+4K
+Text Notes 9850 5000 0    50   ~ 0
+Not OEM
+Text Label 9600 5400 0    50   ~ 0
+4AH
+Text Notes 9850 5400 0    50   ~ 0
+Not OEM
+Text Label 9350 5400 2    50   ~ 0
+GND_SENS
+$Sheet
+S 1250 775  575  200 
+U 5E5C538C
+F0 "LowSide1" 50
+F1 "pair.sch" 50
+F2 "IN1" I L 1250 825 50 
+F3 "IN2" I L 1250 925 50 
+F4 "OUT1" O R 1825 825 50 
+F5 "OUT2" O R 1825 925 50 
+$EndSheet
+$Sheet
+S 1250 1200 575  200 
+U 5E5D00DA
+F0 "LowSide2" 50
+F1 "pair.sch" 50
+F2 "IN1" I L 1250 1250 50 
+F3 "IN2" I L 1250 1350 50 
+F4 "OUT1" O R 1825 1250 50 
+F5 "OUT2" O R 1825 1350 50 
+$EndSheet
+NoConn ~ 6525 1125
+NoConn ~ 6525 1025
+NoConn ~ 6525 925 
+NoConn ~ 7075 925 
+NoConn ~ 7075 1025
+NoConn ~ 7075 1125
+NoConn ~ 7625 1125
+NoConn ~ 7625 1025
+NoConn ~ 7625 925 
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 2 1 5E5DE0DA
+P 10225 925
+F 0 "U3" H 10300 1275 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 10475 950 60  0001 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 10225 925 60  0001 C CNN
+F 3 "" H 10225 925 60  0001 C CNN
+	2    10225 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 3 1 5E5E0D90
+P 10125 1550
+F 0 "U3" H 10225 1775 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 10425 1550 60  0001 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 10125 1550 60  0001 C CNN
+F 3 "" H 10125 1550 60  0001 C CNN
+	3    10125 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusEFI_BlueTooth:ITEAD_HC-05 U4
+U 1 1 5E627E66
+P 2200 3200
+F 0 "U4" H 2200 4353 60  0000 C CNN
+F 1 "ITEAD_HC-05" H 2200 4247 60  0000 C CNN
+F 2 "rusEFI_Modules:ITEAD_HC-05" H 2200 4247 60  0001 C CNN
+F 3 "" H 2200 3200 60  0000 C CNN
+	1    2200 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5E63FF60
+P 2200 4150
+F 0 "#PWR022" H 2200 3900 50  0001 C CNN
+F 1 "GND" H 2205 3977 50  0000 C CNN
+F 2 "" H 2200 4150 50  0001 C CNN
+F 3 "" H 2200 4150 50  0001 C CNN
+	1    2200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4150 2200 4150
+Connection ~ 2200 4150
+Wire Wire Line
+	2200 4150 2300 4150
+NoConn ~ 2800 2650
+NoConn ~ 2800 2550
+NoConn ~ 2800 2400
+NoConn ~ 2825 3000
+NoConn ~ 2800 3100
+NoConn ~ 2800 3200
+NoConn ~ 2800 3300
+NoConn ~ 2800 3450
+NoConn ~ 2800 3550
+NoConn ~ 2800 3700
+NoConn ~ 2800 3800
+NoConn ~ 2800 3900
+NoConn ~ 2800 4000
+NoConn ~ 1600 3900
+NoConn ~ 1600 3800
+NoConn ~ 1600 3700
+NoConn ~ 1600 3600
+NoConn ~ 1600 3500
+NoConn ~ 1600 3400
+NoConn ~ 1600 3300
+NoConn ~ 1600 3200
+NoConn ~ 1600 3100
+NoConn ~ 1600 3000
+NoConn ~ 1600 2900
+NoConn ~ 1600 2800
+NoConn ~ 1600 2600
+NoConn ~ 1600 2500
+Connection ~ 1375 2250
+Wire Wire Line
+	1150 2250 1375 2250
+Connection ~ 1375 2550
+Wire Wire Line
+	1150 2550 1375 2550
+$Comp
+L Device:C C5
+U 1 1 5E668327
+P 1150 2400
+F 0 "C5" H 1035 2354 50  0000 R CNN
+F 1 "0.1u" H 1035 2445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 2250 50  0001 C CNN
+F 3 "~" H 1150 2400 50  0001 C CNN
+F 4 "C49678" H 1150 2400 50  0001 C CNN "LCSC"
+	1    1150 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2250 1375 2250
+$Comp
+L Device:CP1 C6
+U 1 1 5E665EEB
+P 1375 2400
+F 0 "C6" H 1490 2446 50  0000 L CNN
+F 1 "1u" H 1490 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1375 2400 50  0001 C CNN
+F 3 "~" H 1375 2400 50  0001 C CNN
+F 4 "C28323" H 1375 2400 50  0001 C CNN "LCSC"
+	1    1375 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5E66330C
+P 1375 2550
+F 0 "#PWR021" H 1375 2300 50  0001 C CNN
+F 1 "GND" H 1380 2377 50  0000 C CNN
+F 2 "" H 1375 2550 50  0001 C CNN
+F 3 "" H 1375 2550 50  0001 C CNN
+	1    1375 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2750 3050 2750
+Wire Wire Line
+	2800 2850 3050 2850
+$Comp
+L Connector:TestPoint_2Pole W4T1
+U 1 1 5E5F76D0
+P 1350 5450
+F 0 "W4T1" H 1350 5553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5450 50  0001 C CNN
+F 3 "~" H 1350 5450 50  0001 C CNN
+F 4 "C17477" H 1350 5450 50  0001 C CNN "LCSC"
+	1    1350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4K1
+U 1 1 5E5F808D
+P 1350 5750
+F 0 "W4K1" H 1350 5853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5750 50  0001 C CNN
+F 3 "~" H 1350 5750 50  0001 C CNN
+F 4 "C17477" H 1350 5750 50  0001 C CNN "LCSC"
+	1    1350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4I1
+U 1 1 5E5F88BA
+P 1350 5850
+F 0 "W4I1" H 1350 5953 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 5908 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5850 50  0001 C CNN
+F 3 "~" H 1350 5850 50  0001 C CNN
+F 4 "C17477" H 1350 5850 50  0001 C CNN "LCSC"
+	1    1350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4F1
+U 1 1 5E5F8BAB
+P 1350 5950
+F 0 "W4F1" H 1350 6053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 5950 50  0001 C CNN
+F 3 "~" H 1350 5950 50  0001 C CNN
+F 4 "C17477" H 1350 5950 50  0001 C CNN "LCSC"
+	1    1350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4R1
+U 1 1 5E6072F5
+P 3900 5450
+F 0 "W4R1" H 3900 5553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5450 50  0001 C CNN
+F 3 "~" H 3900 5450 50  0001 C CNN
+F 4 "C17477" H 3900 5450 50  0001 C CNN "LCSC"
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4D1
+U 1 1 5E6076B1
+P 3900 5950
+F 0 "W4D1" H 3900 6053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5950 50  0001 C CNN
+F 3 "~" H 3900 5950 50  0001 C CNN
+F 4 "C17477" H 3900 5950 50  0001 C CNN "LCSC"
+	1    3900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3O1
+U 1 1 5E607A5D
+P 1350 6650
+F 0 "W3O1" H 1350 6753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6650 50  0001 C CNN
+F 3 "~" H 1350 6650 50  0001 C CNN
+F 4 "C17477" H 1350 6650 50  0001 C CNN "LCSC"
+	1    1350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4X1
+U 1 1 5E607E5C
+P 2500 5250
+F 0 "W4X1" H 2500 5353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5250 50  0001 C CNN
+F 3 "~" H 2500 5250 50  0001 C CNN
+F 4 "C17477" H 2500 5250 50  0001 C CNN "LCSC"
+	1    2500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AA1
+U 1 1 5E6082DB
+P 2500 5150
+F 0 "W4AA1" H 2500 5253 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5208 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5150 50  0001 C CNN
+F 3 "~" H 2500 5150 50  0001 C CNN
+F 4 "C17477" H 2500 5150 50  0001 C CNN "LCSC"
+	1    2500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AD1
+U 1 1 5E60864B
+P 2500 5050
+F 0 "W4AD1" H 2500 5153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5050 50  0001 C CNN
+F 3 "~" H 2500 5050 50  0001 C CNN
+F 4 "C17477" H 2500 5050 50  0001 C CNN "LCSC"
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AG1
+U 1 1 5E608A18
+P 2500 4950
+F 0 "W4AG1" H 2500 5053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 4950 50  0001 C CNN
+F 3 "~" H 2500 4950 50  0001 C CNN
+F 4 "C17477" H 2500 4950 50  0001 C CNN "LCSC"
+	1    2500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4C1
+U 1 1 5E607042
+P 1350 6050
+F 0 "W4C1" H 1350 6153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6050 50  0001 C CNN
+F 3 "~" H 1350 6050 50  0001 C CNN
+F 4 "C17477" H 1350 6050 50  0001 C CNN "LCSC"
+	1    1350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4S1
+U 1 1 5E5F8F08
+P 2500 5450
+F 0 "W4S1" H 2500 5553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5450 50  0001 C CNN
+F 3 "~" H 2500 5450 50  0001 C CNN
+F 4 "C17477" H 2500 5450 50  0001 C CNN "LCSC"
+	1    2500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4V1
+U 1 1 5E61262A
+P 2500 5350
+F 0 "W4V1" H 2500 5453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5350 50  0001 C CNN
+F 3 "~" H 2500 5350 50  0001 C CNN
+F 4 "C17477" H 2500 5350 50  0001 C CNN "LCSC"
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4H1
+U 1 1 5E62708F
+P 2500 5850
+F 0 "W4H1" H 2500 5953 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5908 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5850 50  0001 C CNN
+F 3 "~" H 2500 5850 50  0001 C CNN
+F 4 "C17477" H 2500 5850 50  0001 C CNN "LCSC"
+	1    2500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4J1
+U 1 1 5E627437
+P 2500 5750
+F 0 "W4J1" H 2500 5853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5750 50  0001 C CNN
+F 3 "~" H 2500 5750 50  0001 C CNN
+F 4 "C17477" H 2500 5750 50  0001 C CNN "LCSC"
+	1    2500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4M1
+U 1 1 5E627849
+P 2500 5650
+F 0 "W4M1" H 2500 5753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5650 50  0001 C CNN
+F 3 "~" H 2500 5650 50  0001 C CNN
+F 4 "C17477" H 2500 5650 50  0001 C CNN "LCSC"
+	1    2500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4P1
+U 1 1 5E627C45
+P 2500 5550
+F 0 "W4P1" H 2500 5653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 5608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5550 50  0001 C CNN
+F 3 "~" H 2500 5550 50  0001 C CNN
+F 4 "C17477" H 2500 5550 50  0001 C CNN "LCSC"
+	1    2500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4U1
+U 1 1 5E63BBEE
+P 3900 5350
+F 0 "W4U1" H 3900 5453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5350 50  0001 C CNN
+F 3 "~" H 3900 5350 50  0001 C CNN
+F 4 "C17477" H 3900 5350 50  0001 C CNN "LCSC"
+	1    3900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4Z1
+U 1 1 5E63C04A
+P 3900 5250
+F 0 "W4Z1" H 3900 5353 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5308 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5250 50  0001 C CNN
+F 3 "~" H 3900 5250 50  0001 C CNN
+F 4 "C17477" H 3900 5250 50  0001 C CNN "LCSC"
+	1    3900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4AC1
+U 1 1 5E63C3D5
+P 3900 5150
+F 0 "W4AC1" H 3900 5253 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5208 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5150 50  0001 C CNN
+F 3 "~" H 3900 5150 50  0001 C CNN
+F 4 "C17477" H 3900 5150 50  0001 C CNN "LCSC"
+	1    3900 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 5575 5425 0    50   ~ 0
+IAC Feed
+Text Notes 5575 5275 0    50   ~ 0
+VVT Feed
+Text Notes 5275 5125 0    50   ~ 0
+From Main Relay
+Text Label 6525 5425 2    50   ~ 0
+12_MAIN_RELAY
+Text Label 6525 5275 2    50   ~ 0
+12_MAIN_RELAY
+Text Label 6525 4975 2    50   ~ 0
+MAIN_RELAY_CONTROL
+Text Label 6525 5125 2    50   ~ 0
+12_MAIN_RELAY
+Text Label 6525 4825 2    50   ~ 0
+12_IGN_KEY
+Wire Wire Line
+	6675 4825 6525 4825
+Wire Wire Line
+	6525 5125 6675 5125
+Wire Wire Line
+	6525 5275 6675 5275
+Wire Wire Line
+	6525 5425 6675 5425
+$Comp
+L Connector:TestPoint_2Pole W3L1
+U 1 1 5E683FF5
+P 1350 6750
+F 0 "W3L1" H 1350 6853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6750 50  0001 C CNN
+F 3 "~" H 1350 6750 50  0001 C CNN
+F 4 "C17477" H 1350 6750 50  0001 C CNN "LCSC"
+	1    1350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4A1
+U 1 1 5E68434C
+P 3900 6050
+F 0 "W4A1" H 3900 6153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6050 50  0001 C CNN
+F 3 "~" H 3900 6050 50  0001 C CNN
+F 4 "C17477" H 3900 6050 50  0001 C CNN "LCSC"
+	1    3900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4L1
+U 1 1 5E684705
+P 3900 5650
+F 0 "W4L1" H 3900 5753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5650 50  0001 C CNN
+F 3 "~" H 3900 5650 50  0001 C CNN
+F 4 "C17477" H 3900 5650 50  0001 C CNN "LCSC"
+	1    3900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4O1
+U 1 1 5E684B23
+P 3900 5550
+F 0 "W4O1" H 3900 5653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 5550 50  0001 C CNN
+F 3 "~" H 3900 5550 50  0001 C CNN
+F 4 "C17477" H 3900 5550 50  0001 C CNN "LCSC"
+	1    3900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4B1
+U 1 1 5E684F05
+P 2500 6050
+F 0 "W4B1" H 2500 6153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6050 50  0001 C CNN
+F 3 "~" H 2500 6050 50  0001 C CNN
+F 4 "C17477" H 2500 6050 50  0001 C CNN "LCSC"
+	1    2500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W4E1
+U 1 1 5E685337
+P 2500 5950
+F 0 "W4E1" H 2500 6053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 5950 50  0001 C CNN
+F 3 "~" H 2500 5950 50  0001 C CNN
+F 4 "C17477" H 2500 5950 50  0001 C CNN "LCSC"
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2G1
+U 1 1 5E41E849
+P 3900 7550
+F 0 "W2G1" H 3900 7653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7550 50  0001 C CNN
+F 3 "~" H 3900 7550 50  0001 C CNN
+F 4 "C17477" H 3900 7550 50  0001 C CNN "LCSC"
+	1    3900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2D1
+U 1 1 5E41E298
+P 3900 7650
+F 0 "W2D1" H 3900 7753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7650 50  0001 C CNN
+F 3 "~" H 3900 7650 50  0001 C CNN
+F 4 "C17477" H 3900 7650 50  0001 C CNN "LCSC"
+	1    3900 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2A1
+U 1 1 5E3F6402
+P 3900 7750
+F 0 "W2A1" H 3900 7853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7750 50  0001 C CNN
+F 3 "~" H 3900 7750 50  0001 C CNN
+F 4 "C17477" H 3900 7750 50  0001 C CNN "LCSC"
+	1    3900 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5000 9350 5000
+Wire Wire Line
+	9350 5200 9600 5200
+Wire Wire Line
+	9600 5400 9350 5400
+Wire Wire Line
+	9600 4650 9350 4650
+$Comp
+L Connector:TestPoint_2Pole W3S1
+U 1 1 5E724129
+P 2500 6450
+F 0 "W3S1" H 2500 6553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6450 50  0001 C CNN
+F 3 "~" H 2500 6450 50  0001 C CNN
+F 4 "C17477" H 2500 6450 50  0001 C CNN "LCSC"
+	1    2500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3T1
+U 1 1 5E7244FA
+P 1350 6450
+F 0 "W3T1" H 1350 6553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 6508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 6450 50  0001 C CNN
+F 3 "~" H 1350 6450 50  0001 C CNN
+F 4 "C17477" H 1350 6450 50  0001 C CNN "LCSC"
+	1    1350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3K1
+U 1 1 5E7248CF
+P 2500 6750
+F 0 "W3K1" H 2500 6853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6750 50  0001 C CNN
+F 3 "~" H 2500 6750 50  0001 C CNN
+F 4 "C17477" H 2500 6750 50  0001 C CNN "LCSC"
+	1    2500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3H1
+U 1 1 5E724D1A
+P 2500 6850
+F 0 "W3H1" H 2500 6953 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 6908 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6850 50  0001 C CNN
+F 3 "~" H 2500 6850 50  0001 C CNN
+F 4 "C17477" H 2500 6850 50  0001 C CNN "LCSC"
+	1    2500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3E1
+U 1 1 5E7251AE
+P 2500 6950
+F 0 "W3E1" H 2500 7053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 6950 50  0001 C CNN
+F 3 "~" H 2500 6950 50  0001 C CNN
+F 4 "C17477" H 2500 6950 50  0001 C CNN "LCSC"
+	1    2500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3B1
+U 1 1 5E7255AD
+P 2500 7050
+F 0 "W3B1" H 2500 7153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7050 50  0001 C CNN
+F 3 "~" H 2500 7050 50  0001 C CNN
+F 4 "C17477" H 2500 7050 50  0001 C CNN "LCSC"
+	1    2500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3A1
+U 1 1 5E725A1D
+P 3900 7050
+F 0 "W3A1" H 3900 7153 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7108 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 7050 50  0001 C CNN
+F 3 "~" H 3900 7050 50  0001 C CNN
+F 4 "C17477" H 3900 7050 50  0001 C CNN "LCSC"
+	1    3900 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 5575 6525 5575
+Wire Wire Line
+	6675 5725 6525 5725
+Wire Wire Line
+	6675 5875 6525 5875
+Wire Wire Line
+	6675 6025 6525 6025
+Wire Wire Line
+	6525 6175 6675 6175
+Wire Wire Line
+	6675 6325 6525 6325
+Wire Wire Line
+	6525 6475 6675 6475
+$Comp
+L Connector:TestPoint_2Pole W2F1
+U 1 1 5E75341A
+P 1350 7650
+F 0 "W2F1" H 1350 7753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7650 50  0001 C CNN
+F 3 "~" H 1350 7650 50  0001 C CNN
+F 4 "C17477" H 1350 7650 50  0001 C CNN "LCSC"
+	1    1350 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2I1
+U 1 1 5E75382E
+P 1350 7550
+F 0 "W2I1" H 1350 7653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7550 50  0001 C CNN
+F 3 "~" H 1350 7550 50  0001 C CNN
+F 4 "C17477" H 1350 7550 50  0001 C CNN "LCSC"
+	1    1350 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 6625 6675 6625
+Wire Wire Line
+	6525 6775 6675 6775
+Wire Wire Line
+	7450 6025 7650 6025
+Wire Wire Line
+	7450 6175 7650 6175
+Wire Wire Line
+	7450 6325 7650 6325
+Wire Wire Line
+	7450 6475 7650 6475
+Wire Wire Line
+	7450 6625 7650 6625
+Text Label 1550 6750 0    50   ~ 0
+3L
+$Comp
+L Connector:TestPoint_2Pole W2O1
+U 1 1 5E7FA443
+P 1350 7350
+F 0 "W2O1" H 1350 7453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 1395 7408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 1350 7350 50  0001 C CNN
+F 3 "~" H 1350 7350 50  0001 C CNN
+F 4 "C17477" H 1350 7350 50  0001 C CNN "LCSC"
+	1    1350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2E1
+U 1 1 5E7FAA37
+P 2500 7650
+F 0 "W2E1" H 2500 7753 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7708 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7650 50  0001 C CNN
+F 3 "~" H 2500 7650 50  0001 C CNN
+F 4 "C17477" H 2500 7650 50  0001 C CNN "LCSC"
+	1    2500 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2H1
+U 1 1 5E7FB079
+P 2500 7550
+F 0 "W2H1" H 2500 7653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7550 50  0001 C CNN
+F 3 "~" H 2500 7550 50  0001 C CNN
+F 4 "C17477" H 2500 7550 50  0001 C CNN "LCSC"
+	1    2500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 4825 7625 4825
+Wire Wire Line
+	7475 4975 7625 4975
+Wire Wire Line
+	7475 5125 7625 5125
+Wire Wire Line
+	7475 5275 7625 5275
+Wire Wire Line
+	7475 5425 7625 5425
+Wire Wire Line
+	7475 5575 7625 5575
+Wire Wire Line
+	7475 5725 7625 5725
+Wire Wire Line
+	9600 6000 9450 6000
+Wire Wire Line
+	9450 6200 9600 6200
+Wire Wire Line
+	9450 6400 9600 6400
+Wire Wire Line
+	9600 6600 9450 6600
+Wire Wire Line
+	9600 6800 9450 6800
+Wire Wire Line
+	9450 5800 9600 5800
+Text Label 9450 6000 2    50   ~ 0
+CAN_H
+Text Label 9450 6200 2    50   ~ 0
+CAN_L
+Text Label 9450 5800 2    50   ~ 0
+USB_PWR_INP
+Text Label 9450 6800 2    50   ~ 0
+USB_GND
+Text Label 9450 6400 2    50   ~ 0
+USBD-
+Text Label 9450 6600 2    50   ~ 0
+USBD+
+$Comp
+L Connector:TestPoint_2Pole W2N1
+U 1 1 5E91B436
+P 2500 7350
+F 0 "W2N1" H 2500 7453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7350 50  0001 C CNN
+F 3 "~" H 2500 7350 50  0001 C CNN
+F 4 "C17477" H 2500 7350 50  0001 C CNN "LCSC"
+	1    2500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W2K1
+U 1 1 5E91C1F2
+P 2500 7450
+F 0 "W2K1" H 2500 7553 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 2545 7508 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 2500 7450 50  0001 C CNN
+F 3 "~" H 2500 7450 50  0001 C CNN
+F 4 "C17477" H 2500 7450 50  0001 C CNN "LCSC"
+	1    2500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3P1
+U 1 1 5E9463D0
+P 3900 6550
+F 0 "W3P1" H 3900 6653 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6608 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6550 50  0001 C CNN
+F 3 "~" H 3900 6550 50  0001 C CNN
+F 4 "C17477" H 3900 6550 50  0001 C CNN "LCSC"
+	1    3900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3J1
+U 1 1 5E946927
+P 3900 6750
+F 0 "W3J1" H 3900 6853 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6808 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6750 50  0001 C CNN
+F 3 "~" H 3900 6750 50  0001 C CNN
+F 4 "C17477" H 3900 6750 50  0001 C CNN "LCSC"
+	1    3900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3U1
+U 1 1 5E94E0C6
+P 3900 6350
+F 0 "W3U1" H 3900 6453 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 6408 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6350 50  0001 C CNN
+F 3 "~" H 3900 6350 50  0001 C CNN
+F 4 "C17477" H 3900 6350 50  0001 C CNN "LCSC"
+	1    3900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_2Pole W3D1
+U 1 1 5E94FA6A
+P 3900 6950
+F 0 "W3D1" H 3900 7053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 7008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 6950 50  0001 C CNN
+F 3 "~" H 3900 6950 50  0001 C CNN
+F 4 "C17477" H 3900 6950 50  0001 C CNN "LCSC"
+	1    3900 6950
+	1    0    0    -1  
+$EndComp
+Text Label 2700 7750 0    50   ~ 0
+2B
+Text Label 2700 7450 0    50   ~ 0
+2K
+Text Label 2700 7550 0    50   ~ 0
+2H
+Text Label 2700 7350 0    50   ~ 0
+2N
+Text Label 2700 7250 0    50   ~ 0
+2Q
+Text Label 2700 7650 0    50   ~ 0
+2E
+Text Label 4100 7050 0    50   ~ 0
+3A
+Text Label 4100 6750 0    50   ~ 0
+3J
+Text Label 4100 6650 0    50   ~ 0
+3M
+Text Label 4100 6950 0    50   ~ 0
+3D
+Text Label 4100 6550 0    50   ~ 0
+3P
+Text Label 4100 6250 0    50   ~ 0
+3X
+Text Label 2700 6050 0    50   ~ 0
+4B
+Text Label 2700 6350 0    50   ~ 0
+3V
+Text Label 4100 6050 0    50   ~ 0
+4A
+Text Label 4100 5950 0    50   ~ 0
+4D
+Text Label 2700 6850 0    50   ~ 0
+3H
+Text Label 2700 6650 0    50   ~ 0
+3N
+Text Label 2700 6550 0    50   ~ 0
+3Q
+Text Label 2700 6750 0    50   ~ 0
+3K
+Text Label 2700 6950 0    50   ~ 0
+3E
+Text Label 2700 7050 0    50   ~ 0
+3B
+Text Label 4100 5650 0    50   ~ 0
+4L
+Text Label 4100 5150 0    50   ~ 0
+4AC
+Text Label 2700 5150 0    50   ~ 0
+4AA
+Text Label 4100 5550 0    50   ~ 0
+4O
+Text Label 2700 6450 0    50   ~ 0
+3S
+Text Label 4100 6350 0    50   ~ 0
+3U
+Text Label 2700 6250 0    50   ~ 0
+3Y
+Text Label 4100 4950 0    50   ~ 0
+4AF
+Text Label 2700 5450 0    50   ~ 0
+4S
+Text Label 1550 5950 0    50   ~ 0
+4F
+Text Label 1550 6050 0    50   ~ 0
+4C
+Text Label 2700 5350 0    50   ~ 0
+4V
+Text Label 2700 5550 0    50   ~ 0
+4P
+Text Label 2700 5650 0    50   ~ 0
+4M
+Text Label 2700 5750 0    50   ~ 0
+4J
+Text Label 2700 5850 0    50   ~ 0
+4H
+Text Label 2700 5950 0    50   ~ 0
+4E
+Text Label 2700 4950 0    50   ~ 0
+4AG
+Text Label 2700 5250 0    50   ~ 0
+4X
+Text Label 2700 5050 0    50   ~ 0
+4AD
+Text Label 4100 5450 0    50   ~ 0
+4R
+Text Label 1550 5150 0    50   ~ 0
+4AB
+Text Label 4100 5350 0    50   ~ 0
+4U
+Text Label 4100 5250 0    50   ~ 0
+4Z
+Text Label 1550 5450 0    50   ~ 0
+4T
+Text Label 1550 5750 0    50   ~ 0
+4K
+Text Label 1550 5850 0    50   ~ 0
+4I
+Text Label 1550 5650 0    50   ~ 0
+4N
+Text Label 1550 5050 0    50   ~ 0
+4AE
+Text Label 1550 5350 0    50   ~ 0
+4W
+Text Label 1550 4950 0    50   ~ 0
+4AH
+Text Notes 8600 4200 0    50   ~ 0
+NB2 harness seems to have 10 unused pins:\n2O\n3K, 3L, 3N, 3W, 3X, 3Z\n4K, 4U, 4AH\n
+Wire Wire Line
+	3725 1375 3725 1575
+Wire Wire Line
+	3275 1375 3275 1575
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E6B65A4
+P 2375 925
+F 0 "J3" H 2455 921 50  0000 L CNN
+F 1 "Conn_01x01" H 2455 876 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 2375 925 50  0001 C CNN
+F 3 "~" H 2375 925 50  0001 C CNN
+	1    2375 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5E6B6C82
+P 2350 1250
+F 0 "J1" H 2430 1246 50  0000 L CNN
+F 1 "Conn_01x01" H 2430 1201 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 2350 1250 50  0001 C CNN
+F 3 "~" H 2350 1250 50  0001 C CNN
+	1    2350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5E6B6EF1
+P 2350 1350
+F 0 "J2" H 2430 1346 50  0000 L CNN
+F 1 "Conn_01x01" H 2430 1301 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 2350 1350 50  0001 C CNN
+F 3 "~" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1250 2150 1250
+Wire Wire Line
+	2150 1350 1825 1350
+Wire Wire Line
+	1825 925  2175 925 
+Text Label 3050 2750 0    50   ~ 0
+J808_PC10
+Text Label 3050 2850 0    50   ~ 0
+J805_PC11
+Wire Wire Line
+	1825 825  2225 825 
+Text Label 7625 5875 0    50   ~ 0
+3U
+Wire Wire Line
+	7625 5875 7475 5875
+Text Notes 550  7975 0    50   ~ 0
+PNP pinout is as noted at the below.\nhttps://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E726E1E
+P 9800 1500
+F 0 "BT1" V 9637 1550 50  0000 C CNN
+F 1 "Battery_Cell" V 9636 1550 50  0001 C CNN
+F 2 "rusEFI_Modules:BATT_CR2032_MPD" V 9800 1560 50  0001 C CNN
+F 3 "~" V 9800 1560 50  0001 C CNN
+	1    9800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5E72B9DF
+P 10025 925
+F 0 "J7" H 9943 592 50  0000 C CNN
+F 1 "Conn_01x05" H 9943 591 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10025 925 50  0001 C CNN
+F 3 "~" H 10025 925 50  0001 C CNN
+	1    10025 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 1500 10125 1500
+Text Label 10100 1500 2    50   ~ 0
+VBAT
+$Comp
+L power:GND #PWR023
+U 1 1 5E7364A1
+P 10050 1600
+F 0 "#PWR023" H 10050 1350 50  0001 C CNN
+F 1 "GND" H 10055 1427 50  0000 C CNN
+F 2 "" H 10050 1600 50  0001 C CNN
+F 3 "" H 10050 1600 50  0001 C CNN
+	1    10050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 1600 10050 1600
+Wire Wire Line
+	10050 1600 9700 1600
+Wire Wire Line
+	9700 1600 9700 1500
+Connection ~ 10050 1600
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5E73ECE3
+P 9900 3325
+F 0 "J6" H 9818 3550 50  0000 C CNN
+F 1 "Conn_01x05" H 9818 2991 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 9900 3325 50  0001 C CNN
+F 3 "~" H 9900 3325 50  0001 C CNN
+	1    9900 3325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 4 1 5E74D622
+P 8400 2300
+F 0 "U3" H 9300 2650 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 9581 2700 60  0001 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 8400 2300 60  0001 C CNN
+F 3 "" H 8400 2300 60  0001 C CNN
+	4    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 6 1 5E75CC8B
+P 9550 3375
+F 0 "U3" H 10175 3700 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 10731 3775 60  0001 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 9550 3375 60  0001 C CNN
+F 3 "" H 9550 3375 60  0001 C CNN
+	6    9550 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusEFI_MRE:molex_48pin_MRE U3
+U 5 1 5E764341
+P 10700 2825
+F 0 "U3" H 11200 2700 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 11881 3225 60  0001 C CNN
+F 2 "rusEFI_Modules:Molex_48_MRE" H 10700 2825 60  0001 C CNN
+F 3 "" H 10700 2825 60  0001 C CNN
+	5    10700 2825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5E7C83DD
+P 9900 2825
+F 0 "J5" H 9818 2692 50  0000 C CNN
+F 1 "Conn_01x01" H 9980 2776 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 9900 2825 50  0001 C CNN
+F 3 "~" H 9900 2825 50  0001 C CNN
+	1    9900 2825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 5E7E34ED
+P 8450 2300
+F 0 "J4" H 8368 2625 50  0000 C CNN
+F 1 "Conn_01x05" H 8368 1966 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 8450 2300 50  0001 C CNN
+F 3 "~" H 8450 2300 50  0001 C CNN
+	1    8450 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5E7E5A68
+P 10250 2300
+F 0 "J8" H 10200 2625 50  0000 L CNN
+F 1 "Conn_01x05" H 10168 1966 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10250 2300 50  0001 C CNN
+F 3 "~" H 10250 2300 50  0001 C CNN
+	1    10250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E82E516
+P 9700 1600
+F 0 "#FLG0101" H 9700 1675 50  0001 C CNN
+F 1 "PWR_FLAG" V 9700 1727 50  0000 L CNN
+F 2 "" H 9700 1600 50  0001 C CNN
+F 3 "~" H 9700 1600 50  0001 C CNN
+	1    9700 1600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9700 1600
+Text Label 9575 2400 0    50   ~ 0
+J808_PC10
+Text Label 9050 2300 2    50   ~ 0
+J805_PC11
+Wire Wire Line
+	8650 2300 9100 2300
+Wire Wire Line
+	8650 2200 9100 2200
+Wire Wire Line
+	8650 2100 9100 2100
+Wire Wire Line
+	8650 2400 9100 2400
+Wire Wire Line
+	8650 2500 9100 2500
+Wire Wire Line
+	9500 2500 10050 2500
+Wire Wire Line
+	9500 2400 10050 2400
+Wire Wire Line
+	9500 2300 10050 2300
+Wire Wire Line
+	9500 2200 10050 2200
+Wire Wire Line
+	9500 2100 10050 2100
+Text Label 9050 2200 2    50   ~ 0
+J803_PB8
+Text Label 9050 2400 2    50   ~ 0
+J807_PA15
+$Comp
+L power:GND #PWR0104
+U 1 1 5E7077DB
+P 8650 2500
+F 0 "#PWR0104" H 8650 2250 50  0001 C CNN
+F 1 "GND" H 8655 2327 50  0000 C CNN
+F 2 "" H 8650 2500 50  0001 C CNN
+F 3 "" H 8650 2500 50  0001 C CNN
+	1    8650 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8650 2500
+Text Label 9575 2300 0    50   ~ 0
+J806_PB9
+Text Label 9575 2500 0    50   ~ 0
+J810_PC12
+Text Label 1250 925  2    50   ~ 0
+J803_PB8
+Text Label 1250 825  2    50   ~ 0
+J807_PA15
+Text Label 1250 1250 2    50   ~ 0
+J806_PB9
+Text Label 1250 1350 2    50   ~ 0
+J810_PC12
+$Comp
+L power:+12V #PWR0105
+U 1 1 5E8927D2
+P 4350 4950
+F 0 "#PWR0105" H 4350 4800 50  0001 C CNN
+F 1 "+12V" H 4365 5123 50  0000 C CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 4975 6675 4975
+Wire Wire Line
+	4350 4950 4100 4950
+$Comp
+L rusEFI_Logo:LOGO LOGO1
+U 1 1 5E6A6211
+P 5275 7675
+F 0 "LOGO1" H 5275 7572 60  0001 C CNN
+F 1 "LOGO" H 5275 7778 60  0001 C CNN
+F 2 "rusEFI_Modules:LOGO" H 5275 7675 50  0001 C CNN
+F 3 "" H 5275 7675 50  0001 C CNN
+	1    5275 7675
+	1    0    0    -1  
+$EndComp
+Text Label 9575 2200 0    50   ~ 0
+J804_3.3V
+Text Label 1450 2250 0    50   ~ 0
+J804_3.3V
+$Comp
+L Connector:TestPoint_2Pole W4AF1
+U 1 1 5E63C7E1
+P 3900 4950
+F 0 "W4AF1" H 3900 5053 50  0000 C CNN
+F 1 "TestPoint_2Pole" V 3945 5008 50  0001 L CNN
+F 2 "rusEFI_Modules:SM0805_jumper" H 3900 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+F 4 "C17477" H 3900 4950 50  0001 C CNN "LCSC"
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR024
+U 1 1 5E762777
+P 3600 3275
+F 0 "#PWR024" H 3600 3125 50  0001 C CNN
+F 1 "+12V" H 3615 3448 50  0000 C CNN
+F 2 "" H 3600 3275 50  0001 C CNN
+F 3 "" H 3600 3275 50  0001 C CNN
+	1    3600 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D13
+U 1 1 5E76AB2A
+P 4025 2100
+F 0 "D13" H 3950 2050 50  0000 R CNN
+F 1 "D_Schottky" V 3980 2021 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 4025 2100 50  0001 C CNN
+F 3 "~" H 4025 2100 50  0001 C CNN
+F 4 "C64898" H 4025 2100 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 4025 2100 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 4025 2100 50  0001 C CNN "Vend1,Vend1#"
+	1    4025 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4025 1950 4025 1375
+$Comp
+L Device:LED D14
+U 1 1 5E7827A6
+P 4025 2400
+F 0 "D14" H 4075 2250 50  0000 R CNN
+F 1 "LED" V 3980 2321 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4025 2400 50  0001 C CNN
+F 3 "~" H 4025 2400 50  0001 C CNN
+F 4 "C2286" H 4025 2400 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 4025 2400 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 4025 2400 50  0001 C CNN "Vend1,Vend1#"
+	1    4025 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D15
+U 1 1 5E78EF8B
+P 4125 2250
+F 0 "D15" H 4175 2000 50  0000 R CNN
+F 1 "D_Schottky" V 4080 2171 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 4125 2250 50  0001 C CNN
+F 3 "~" H 4125 2250 50  0001 C CNN
+F 4 "C64898" H 4125 2250 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 4125 2250 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 4125 2250 50  0001 C CNN "Vend1,Vend1#"
+	1    4125 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4125 1375 4125 2100
+$Comp
+L Device:D_Schottky D17
+U 1 1 5E7B9902
+P 4225 2100
+F 0 "D17" H 4150 2050 50  0000 R CNN
+F 1 "D_Schottky" V 4180 2021 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 4225 2100 50  0001 C CNN
+F 3 "~" H 4225 2100 50  0001 C CNN
+F 4 "C64898" H 4225 2100 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 4225 2100 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 4225 2100 50  0001 C CNN "Vend1,Vend1#"
+	1    4225 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 5E7B990F
+P 4225 2400
+F 0 "D18" H 4275 2675 50  0000 R CNN
+F 1 "LED" V 4180 2321 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4225 2400 50  0001 C CNN
+F 3 "~" H 4225 2400 50  0001 C CNN
+F 4 "C2286" H 4225 2400 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 4225 2400 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 4225 2400 50  0001 C CNN "Vend1,Vend1#"
+	1    4225 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D19
+U 1 1 5E7B991C
+P 4325 2250
+F 0 "D19" H 4200 2300 50  0000 R CNN
+F 1 "D_Schottky" V 4280 2171 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 4325 2250 50  0001 C CNN
+F 3 "~" H 4325 2250 50  0001 C CNN
+F 4 "C64898" H 4325 2250 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 4325 2250 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 4325 2250 50  0001 C CNN "Vend1,Vend1#"
+	1    4325 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 5E7B9929
+P 4325 2550
+F 0 "D20" H 4375 2425 50  0000 R CNN
+F 1 "LED" V 4280 2471 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4325 2550 50  0001 C CNN
+F 3 "~" H 4325 2550 50  0001 C CNN
+F 4 "C2286" H 4325 2550 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 4325 2550 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 4325 2550 50  0001 C CNN "Vend1,Vend1#"
+	1    4325 2550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4325 1375 4325 2100
+Wire Wire Line
+	4225 1950 4225 1375
+$Comp
+L Device:D_Schottky D21
+U 1 1 5E7D6FDE
+P 7025 1975
+F 0 "D21" H 6925 2025 50  0000 R CNN
+F 1 "D_Schottky" V 6980 1896 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 7025 1975 50  0001 C CNN
+F 3 "~" H 7025 1975 50  0001 C CNN
+F 4 "C64898" H 7025 1975 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 7025 1975 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 7025 1975 50  0001 C CNN "Vend1,Vend1#"
+	1    7025 1975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 5E7D6FEB
+P 7025 2275
+F 0 "D22" H 7200 2225 50  0000 R CNN
+F 1 "LED" V 6980 2196 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7025 2275 50  0001 C CNN
+F 3 "~" H 7025 2275 50  0001 C CNN
+F 4 "C2286" H 7025 2275 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 7025 2275 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 7025 2275 50  0001 C CNN "Vend1,Vend1#"
+	1    7025 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D23
+U 1 1 5E7D6FF8
+P 7125 2125
+F 0 "D23" H 7025 2175 50  0000 R CNN
+F 1 "D_Schottky" V 7080 2046 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 7125 2125 50  0001 C CNN
+F 3 "~" H 7125 2125 50  0001 C CNN
+F 4 "C64898" H 7125 2125 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 7125 2125 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 7125 2125 50  0001 C CNN "Vend1,Vend1#"
+	1    7125 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 5E7D7005
+P 7125 2425
+F 0 "D24" H 7150 2300 50  0000 R CNN
+F 1 "LED" V 7080 2346 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7125 2425 50  0001 C CNN
+F 3 "~" H 7125 2425 50  0001 C CNN
+F 4 "C2286" H 7125 2425 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 7125 2425 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 7125 2425 50  0001 C CNN "Vend1,Vend1#"
+	1    7125 2425
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7125 1375 7125 1975
+$Comp
+L Device:D_Schottky D25
+U 1 1 5E7E652B
+P 7525 1975
+F 0 "D25" H 7400 2025 50  0000 R CNN
+F 1 "D_Schottky" V 7480 1896 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 7525 1975 50  0001 C CNN
+F 3 "~" H 7525 1975 50  0001 C CNN
+F 4 "C64898" H 7525 1975 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 7525 1975 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 7525 1975 50  0001 C CNN "Vend1,Vend1#"
+	1    7525 1975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 5E7E6538
+P 7525 2275
+F 0 "D26" H 7700 2225 50  0000 R CNN
+F 1 "LED" V 7480 2196 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7525 2275 50  0001 C CNN
+F 3 "~" H 7525 2275 50  0001 C CNN
+F 4 "C2286" H 7525 2275 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 7525 2275 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 7525 2275 50  0001 C CNN "Vend1,Vend1#"
+	1    7525 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D27
+U 1 1 5E7E6545
+P 7625 2125
+F 0 "D27" H 7500 2175 50  0000 R CNN
+F 1 "D_Schottky" V 7580 2046 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 7625 2125 50  0001 C CNN
+F 3 "~" H 7625 2125 50  0001 C CNN
+F 4 "C64898" H 7625 2125 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 7625 2125 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 7625 2125 50  0001 C CNN "Vend1,Vend1#"
+	1    7625 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 5E7E6552
+P 7625 2425
+F 0 "D28" H 7650 2275 50  0000 R CNN
+F 1 "LED" V 7580 2346 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7625 2425 50  0001 C CNN
+F 3 "~" H 7625 2425 50  0001 C CNN
+F 4 "C2286" H 7625 2425 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 7625 2425 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 7625 2425 50  0001 C CNN "Vend1,Vend1#"
+	1    7625 2425
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7625 1375 7625 1975
+Wire Wire Line
+	7525 1375 7525 1825
+Wire Wire Line
+	7025 1375 7025 1825
+$Comp
+L power:+12V #PWR025
+U 1 1 5E7F8FE8
+P 6925 2975
+F 0 "#PWR025" H 6925 2825 50  0001 C CNN
+F 1 "+12V" H 6940 3148 50  0000 C CNN
+F 2 "" H 6925 2975 50  0001 C CNN
+F 3 "" H 6925 2975 50  0001 C CNN
+	1    6925 2975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D30
+U 1 1 5E8E1C9F
+P 3825 1875
+F 0 "D30" H 3850 1975 50  0000 R CNN
+F 1 "D_Schottky" V 3780 1796 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 3825 1875 50  0001 C CNN
+F 3 "~" H 3825 1875 50  0001 C CNN
+F 4 "C64898" H 3825 1875 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 3825 1875 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 3825 1875 50  0001 C CNN "Vend1,Vend1#"
+	1    3825 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D29
+U 1 1 5E8E89F4
+P 3375 1875
+F 0 "D29" H 3400 1775 50  0000 R CNN
+F 1 "D_Schottky" V 3330 1796 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 3375 1875 50  0001 C CNN
+F 3 "~" H 3375 1875 50  0001 C CNN
+F 4 "C64898" H 3375 1875 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 3375 1875 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 3375 1875 50  0001 C CNN "Vend1,Vend1#"
+	1    3375 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3825 2025 3375 2025
+Wire Wire Line
+	3375 1725 3375 1375
+Wire Wire Line
+	3825 1725 3825 1375
+$Comp
+L power:+12V #PWR026
+U 1 1 5E8F5D15
+P 3375 2025
+F 0 "#PWR026" H 3375 1875 50  0001 C CNN
+F 1 "+12V" H 3390 2198 50  0000 C CNN
+F 2 "" H 3375 2025 50  0001 C CNN
+F 3 "" H 3375 2025 50  0001 C CNN
+	1    3375 2025
+	-1   0    0    1   
+$EndComp
+Connection ~ 3375 2025
+$Sheet
+S 8950 3200 525  325 
+U 5E6F02A9
+F0 "Proto" 50
+F1 "Proto.sch" 50
+F2 "12v" I L 8950 3250 50 
+F3 "5v" I L 8950 3325 50 
+F4 "gnd" I L 8950 3475 50 
+F5 "3.3v" I L 8950 3400 50 
+$EndSheet
+$Comp
+L power:+12V #PWR0106
+U 1 1 5E6F862D
+P 8825 3250
+F 0 "#PWR0106" H 8825 3100 50  0001 C CNN
+F 1 "+12V" H 8840 3423 50  0000 C CNN
+F 2 "" H 8825 3250 50  0001 C CNN
+F 3 "" H 8825 3250 50  0001 C CNN
+	1    8825 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3250 8825 3250
+$Comp
+L power:GND #PWR0107
+U 1 1 5E745661
+P 8825 3475
+F 0 "#PWR0107" H 8825 3225 50  0001 C CNN
+F 1 "GND" H 8830 3302 50  0000 C CNN
+F 2 "" H 8825 3475 50  0001 C CNN
+F 3 "" H 8825 3475 50  0001 C CNN
+	1    8825 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3475 8825 3475
+Text Label 8825 3400 2    50   ~ 0
+J804_3.3V
+Text Label 9050 2100 2    50   ~ 0
+J801_5V
+Text Label 9575 2100 0    50   ~ 0
+J802_12V
+Text Label 8825 3325 2    50   ~ 0
+J801_5V
+Wire Wire Line
+	8825 3325 8950 3325
+Wire Wire Line
+	8825 3400 8950 3400
+$Comp
+L rusEFI_Logo:LOGO LOGO2
+U 1 1 5E6E7D5F
+P 5550 7675
+F 0 "LOGO2" H 5550 7572 60  0001 C CNN
+F 1 "LOGO" H 5550 7778 60  0001 C CNN
+F 2 "rusEFI_Modules:JLC_PCB_TAG" H 5550 7675 50  0001 C CNN
+F 3 "" H 5550 7675 50  0001 C CNN
+	1    5550 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5E78EF99
+P 4125 2550
+F 0 "D16" H 4175 2400 50  0000 R CNN
+F 1 "LED" V 4080 2471 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4125 2550 50  0001 C CNN
+F 3 "~" H 4125 2550 50  0001 C CNN
+F 4 "C2286" H 4125 2550 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 4125 2550 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 4125 2550 50  0001 C CNN "Vend1,Vend1#"
+	1    4125 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3925 3275 4025 3275
+Connection ~ 3925 3275
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5F6507A1
+P 7225 2775
+F 0 "RN2" H 7413 2821 50  0000 L CNN
+F 1 "10k" H 7413 2730 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7500 2775 50  0001 C CNN
+F 3 "~" H 7225 2775 50  0001 C CNN
+F 4 "C29718" H 7225 2775 50  0001 C CNN "LCSC"
+F 5 "YAGEO,YC164-JR-0710KL" H 7225 2775 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,YC164J-10KCT-ND" H 7225 2775 50  0001 C CNN "Vend1,Vend1#"
+	1    7225 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 2575 7625 2575
+Wire Wire Line
+	7225 2575 7225 2525
+Wire Wire Line
+	7225 2525 7525 2525
+Wire Wire Line
+	7525 2425 7525 2525
+Wire Wire Line
+	7025 2425 7025 2575
+Wire Wire Line
+	6925 2975 7025 2975
+Connection ~ 7025 2975
+Wire Wire Line
+	7025 2975 7125 2975
+Connection ~ 7125 2975
+Wire Wire Line
+	7125 2975 7225 2975
+Connection ~ 7225 2975
+Wire Wire Line
+	7225 2975 7325 2975
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 5F769AAD
+P 4325 3075
+F 0 "RN3" H 4513 3121 50  0000 L CNN
+F 1 "10k" H 4513 3030 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4600 3075 50  0001 C CNN
+F 3 "~" H 4325 3075 50  0001 C CNN
+F 4 "C29718" H 4325 3075 50  0001 C CNN "LCSC"
+F 5 "YAGEO,YC164-JR-0710KL" H 4325 3075 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,YC164J-10KCT-ND" H 4325 3075 50  0001 C CNN "Vend1,Vend1#"
+	1    4325 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 3275 3825 3275
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5F62C836
+P 3925 3075
+F 0 "RN1" H 3475 3125 50  0000 L CNN
+F 1 "10k" H 3475 3025 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4200 3075 50  0001 C CNN
+F 3 "~" H 3925 3075 50  0001 C CNN
+F 4 "C29718" H 3925 3075 50  0001 C CNN "LCSC"
+F 5 "YAGEO,YC164-JR-0710KL" H 3925 3075 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,YC164J-10KCT-ND" H 3925 3075 50  0001 C CNN "Vend1,Vend1#"
+	1    3925 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3275 3725 3275
+Connection ~ 3825 3275
+Connection ~ 3725 3275
+Wire Wire Line
+	3725 3275 3825 3275
+Wire Wire Line
+	4025 3275 4125 3275
+Connection ~ 4025 3275
+Connection ~ 4125 3275
+Wire Wire Line
+	4125 3275 4225 3275
+Connection ~ 4225 3275
+Wire Wire Line
+	4225 3275 4325 3275
+Connection ~ 4325 3275
+Wire Wire Line
+	4325 3275 4425 3275
+NoConn ~ 3825 2875
+NoConn ~ 4225 2875
+Wire Wire Line
+	4225 2550 4225 2775
+NoConn ~ 3925 2875
+Wire Wire Line
+	3725 2775 3725 2875
+Wire Wire Line
+	3725 2775 4225 2775
+Wire Wire Line
+	4325 2700 4325 2775
+Wire Wire Line
+	4325 2775 4425 2775
+Wire Wire Line
+	4425 2775 4425 2875
+$Comp
+L Device:D_Schottky D31
+U 1 1 5F85AA87
+P 4650 2250
+F 0 "D31" H 4675 2375 50  0000 R CNN
+F 1 "D_Schottky" V 4605 2171 50  0001 R CNN
+F 2 "Diode_SMD:D_SMF" H 4650 2250 50  0001 C CNN
+F 3 "~" H 4650 2250 50  0001 C CNN
+F 4 "C64898" H 4650 2250 50  0001 C CNN "LCSC"
+F 5 "DIODES_INC,SBR2U60S1F" H 4650 2250 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,SBR2U60S1F-7DICT-ND" H 4650 2250 50  0001 C CNN "Vend1,Vend1#"
+	1    4650 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D32
+U 1 1 5F85AA94
+P 4650 2550
+F 0 "D32" H 4700 2425 50  0000 R CNN
+F 1 "LED" V 4605 2471 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+F 4 "C2286" H 4650 2550 50  0001 C CNN "LCSC"
+F 5 "DIALIGHT,598-8010-107F" H 4650 2550 50  0001 C CNN "MFG,MFG#"
+F 6 "DIGI,350-2029-1-ND" H 4650 2550 50  0001 C CNN "Vend1,Vend1#"
+	1    4650 2550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4325 2875 4325 2825
+Wire Wire Line
+	4325 2825 4650 2825
+Wire Wire Line
+	4650 2825 4650 2700
+$Comp
+L power:GND #PWR027
+U 1 1 5F86D37D
+P 4650 2100
+F 0 "#PWR027" H 4650 1850 50  0001 C CNN
+F 1 "GND" H 4655 1927 50  0000 C CNN
+F 2 "" H 4650 2100 50  0001 C CNN
+F 3 "" H 4650 2100 50  0001 C CNN
+	1    4650 2100
+	-1   0    0    1   
+$EndComp
+Text Notes 4900 2525 1    50   ~ 0
+12V ON
+$Comp
+L Connector_Generic:Conn_01x01 J24
+U 1 1 5E8C8462
+P 6975 3250
+F 0 "J24" H 7055 3246 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 3250 50  0001 C CNN
+F 3 "~" H 6975 3250 50  0001 C CNN
+	1    6975 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8125 1375 8125 1450
+Text Label 8125 1450 3    50   ~ 0
+UNSUED_HALL_REF_2.5V
+Text Label 3475 1450 3    50   ~ 0
+ETB1
+Text Label 3925 1450 3    50   ~ 0
+ETB2
+Wire Wire Line
+	8325 1375 8325 1450
+Wire Wire Line
+	8225 1375 8225 1450
+Wire Wire Line
+	7975 1375 7975 1450
+Wire Wire Line
+	7825 1375 7825 1450
+Wire Wire Line
+	7725 1375 7725 1450
+Wire Wire Line
+	4525 1450 4525 1375
+Wire Wire Line
+	4675 1450 4675 1375
+Wire Wire Line
+	4825 1450 4825 1375
+Wire Wire Line
+	4925 1450 4925 1375
+Wire Wire Line
+	5025 1450 5025 1375
+Wire Wire Line
+	5125 1450 5125 1375
+Wire Wire Line
+	5225 1450 5225 1375
+Wire Wire Line
+	5375 1450 5375 1375
+Wire Wire Line
+	5475 1450 5475 1375
+Wire Wire Line
+	5575 1450 5575 1375
+Wire Wire Line
+	5675 1450 5675 1375
+Wire Wire Line
+	5775 1450 5775 1375
+Wire Wire Line
+	5875 1450 5875 1375
+Wire Wire Line
+	5975 1375 5975 1450
+Wire Wire Line
+	6075 1450 6075 1375
+Wire Wire Line
+	6175 1375 6175 1450
+Wire Wire Line
+	6325 1375 6325 1450
+Wire Wire Line
+	6475 1375 6475 1450
+Wire Wire Line
+	6575 1450 6575 1375
+Wire Wire Line
+	6675 1450 6675 1375
+Wire Wire Line
+	6775 1450 6775 1375
+Wire Wire Line
+	6875 1450 6875 1375
+Wire Wire Line
+	7225 1450 7225 1375
+Wire Wire Line
+	7325 1450 7325 1375
+Wire Wire Line
+	7425 1450 7425 1375
+Wire Wire Line
+	4425 1450 4425 1375
+Wire Wire Line
+	3925 1450 3925 1375
+Wire Wire Line
+	3575 1450 3575 1375
+Wire Wire Line
+	3475 1450 3475 1375
+Wire Wire Line
+	3175 1450 3175 1375
+Text Label 7175 4125 0    50   ~ 0
+AV5_UNUSED
+Text Label 7175 4250 0    50   ~ 0
+AV4_UNUSED
+Text Label 7175 4000 0    50   ~ 0
+AT4_UNUSED
+Text Label 7175 3750 0    50   ~ 0
+AT3_UNUSED
+Text Label 7175 3625 0    50   ~ 0
+AV10_UNUSED
+Text Label 7175 3500 0    50   ~ 0
+AV7_UNUSED
+Text Label 7175 3375 0    50   ~ 0
+AV9_UNUSED
+Text Label 7175 3250 0    50   ~ 0
+UNSUED_HALL_REF_2.5V
+Text Label 7175 4375 0    50   ~ 0
+ETB2
+Text Label 7175 4500 0    50   ~ 0
+ETB1
+$Comp
+L Connector_Generic:Conn_01x01 J25
+U 1 1 5EAFD5BA
+P 6975 3375
+F 0 "J25" H 7055 3371 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3326 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 3375 50  0001 C CNN
+F 3 "~" H 6975 3375 50  0001 C CNN
+	1    6975 3375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J26
+U 1 1 5EAFDA0B
+P 6975 3500
+F 0 "J26" H 7055 3496 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3451 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6975 3500 50  0001 C CNN
+F 3 "~" H 6975 3500 50  0001 C CNN
+	1    6975 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J27
+U 1 1 5EAFDA15
+P 6975 3625
+F 0 "J27" H 7055 3621 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3576 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6975 3625 50  0001 C CNN
+F 3 "~" H 6975 3625 50  0001 C CNN
+	1    6975 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J28
+U 1 1 5EB0F8C7
+P 6975 3750
+F 0 "J28" H 7055 3746 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3701 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 3750 50  0001 C CNN
+F 3 "~" H 6975 3750 50  0001 C CNN
+	1    6975 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J29
+U 1 1 5EB0F8D1
+P 6975 4000
+F 0 "J29" H 7055 3996 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3951 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 4000 50  0001 C CNN
+F 3 "~" H 6975 4000 50  0001 C CNN
+	1    6975 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J30
+U 1 1 5EB0F8DB
+P 6975 4125
+F 0 "J30" H 7055 4121 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 4076 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 4125 50  0001 C CNN
+F 3 "~" H 6975 4125 50  0001 C CNN
+	1    6975 4125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J31
+U 1 1 5EB0F8E5
+P 6975 4250
+F 0 "J31" H 7055 4246 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 4201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 4250 50  0001 C CNN
+F 3 "~" H 6975 4250 50  0001 C CNN
+	1    6975 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J32
+U 1 1 5EB19D9D
+P 6975 4375
+F 0 "J32" H 7055 4371 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 4326 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 4375 50  0001 C CNN
+F 3 "~" H 6975 4375 50  0001 C CNN
+	1    6975 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J33
+U 1 1 5EB19DA7
+P 6975 4500
+F 0 "J33" H 7055 4496 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 4451 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 4500 50  0001 C CNN
+F 3 "~" H 6975 4500 50  0001 C CNN
+	1    6975 4500
+	-1   0    0    1   
+$EndComp
+Text Label 7175 3875 0    50   ~ 0
+AV3_UNUSED
+$Comp
+L Connector_Generic:Conn_01x01 J34
+U 1 1 5EBDFA63
+P 6975 3875
+F 0 "J34" H 7055 3871 50  0000 L CNN
+F 1 "Conn_01x01" H 7055 3826 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6975 3875 50  0001 C CNN
+F 3 "~" H 6975 3875 50  0001 C CNN
+	1    6975 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4125 2700 4125 2875
+Wire Wire Line
+	4025 2550 4025 2875
+$Comp
+L power:+12V #PWR028
+U 1 1 5ED36D6E
+P 6100 4500
+F 0 "#PWR028" H 6100 4350 50  0001 C CNN
+F 1 "+12V" V 6100 4750 50  0000 C CNN
+F 2 "" H 6100 4500 50  0001 C CNN
+F 3 "" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	0    1    1    0   
+$EndComp
+Text Label 6475 4375 2    50   ~ 0
+J801_5V
+Text Label 6475 4250 2    50   ~ 0
+J804_3.3V
+$Comp
+L power:GND #PWR031
+U 1 1 5ED439E7
+P 6200 4125
+F 0 "#PWR031" H 6200 3875 50  0001 C CNN
+F 1 "GND" V 6200 3925 50  0000 C CNN
+F 2 "" H 6200 4125 50  0001 C CNN
+F 3 "" H 6200 4125 50  0001 C CNN
+	1    6200 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J40
+U 1 1 5ED485E7
+P 5825 4500
+F 0 "J40" H 5905 4496 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 4451 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5825 4500 50  0001 C CNN
+F 3 "~" H 5825 4500 50  0001 C CNN
+	1    5825 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J39
+U 1 1 5ED48B6A
+P 5825 4375
+F 0 "J39" H 5905 4371 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 4326 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5825 4375 50  0001 C CNN
+F 3 "~" H 5825 4375 50  0001 C CNN
+	1    5825 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J38
+U 1 1 5ED48F15
+P 5825 4250
+F 0 "J38" H 5905 4246 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 4201 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5825 4250 50  0001 C CNN
+F 3 "~" H 5825 4250 50  0001 C CNN
+	1    5825 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J37
+U 1 1 5ED49272
+P 5825 4125
+F 0 "J37" H 5905 4121 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 4076 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5825 4125 50  0001 C CNN
+F 3 "~" H 5825 4125 50  0001 C CNN
+	1    5825 4125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J36
+U 1 1 5ED495EB
+P 5825 4000
+F 0 "J36" H 5905 3996 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 3951 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5825 4000 50  0001 C CNN
+F 3 "~" H 5825 4000 50  0001 C CNN
+	1    5825 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5ED58F27
+P 6200 4000
+F 0 "#PWR030" H 6200 3750 50  0001 C CNN
+F 1 "GND" V 6200 3800 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6025 4000 6200 4000
+Wire Wire Line
+	6025 4125 6200 4125
+Wire Wire Line
+	6025 4250 6475 4250
+Wire Wire Line
+	6025 4375 6475 4375
+Wire Wire Line
+	6025 4500 6100 4500
+$Comp
+L Connector_Generic:Conn_01x01 J35
+U 1 1 5ED7AA56
+P 5825 3875
+F 0 "J35" H 5905 3871 50  0000 L CNN
+F 1 "Conn_01x01" H 5905 3826 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5825 3875 50  0001 C CNN
+F 3 "~" H 5825 3875 50  0001 C CNN
+	1    5825 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5ED7AA60
+P 6200 3875
+F 0 "#PWR029" H 6200 3625 50  0001 C CNN
+F 1 "GND" V 6200 3675 50  0000 C CNN
+F 2 "" H 6200 3875 50  0001 C CNN
+F 3 "" H 6200 3875 50  0001 C CNN
+	1    6200 3875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6025 3875 6200 3875
+Text Notes 6225 750  0    50   ~ 0
+MRE pinout is as noted at this URL.\nhttps://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_wiring
+Text Notes 1125 1850 0    50   ~ 0
+J1, J2, J3 capable of \nmore than 1A and something \nless than 13A. \nExact limit is unknown.
+$Comp
+L rusFEI_963356-1:963356-1 P1
+U 3 1 5EB61E7E
+P -1625 4375
+F 0 "P1" H -1550 4325 50  0000 R CNN
+F 1 "1123038-2" H -1375 4425 50  0000 R CNN
+F 2 "rusEFI_Modules:963356-1" V 125 3375 50  0001 C CNN
+F 3 "" V 125 4975 50  0001 C CNN
+	3    -1625 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L rusFEI_963356-1:963356-1 P1
+U 2 1 5EB49682
+P -1625 1950
+F 0 "P1" H -1525 1850 50  0000 R CNN
+F 1 "1123038-2" H -1400 1950 50  0000 R CNN
+F 2 "rusEFI_Modules:963356-1" V 125 950 50  0001 C CNN
+F 3 "" V 125 2550 50  0001 C CNN
+	2    -1625 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L rusFEI_963356-1:963356-1 P1
+U 4 1 5EB61E88
+P -1625 6800
+F 0 "P1" H -1550 6700 50  0000 R CNN
+F 1 "1123038-2" H -1425 6800 50  0000 R CNN
+F 2 "rusEFI_Modules:963356-1" V 125 5800 50  0001 C CNN
+F 3 "" V 125 7400 50  0001 C CNN
+	4    -1625 6800
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

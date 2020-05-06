@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name rusefi)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/1123038-2.lib)(options "")(descr ""))
+  (lib (name rusEFI_MRE)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/molex_48pin_MRE.lib)(options "")(descr ""))
+  (lib (name vnld5090)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/vnld5090.lib)(options "")(descr ""))
+  (lib (name rusEFI_BlueTooth)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/itead_hc-0X_bluetooth.lib)(options "")(descr ""))
+  (lib (name rusEFI_Logo)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/logo.lib)(options "")(descr ""))
+  (lib (name rusFEI_966595-1)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/966595-1.lib)(options "")(descr ""))
+  (lib (name rusFEI_963356-1)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/963356-1.lib)(options "")(descr ""))
+)
