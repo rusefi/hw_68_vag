@@ -134,7 +134,7 @@ CAM
 Text Label 7450 6325 2    50   ~ 0
 CRANK
 Text Label 7975 1450 3    50   ~ 0
-CRANK
+CRANK+
 Text Label 5775 1450 3    50   ~ 0
 CAM
 Text Label 3175 1450 3    50   ~ 0
@@ -145,8 +145,6 @@ Text Label 6175 1450 3    50   ~ 0
 MAIN_RELAY_CONTROL
 Text Label 6525 6175 2    50   ~ 0
 AC_FAN
-Text Label 6675 4825 0    50   ~ 0
-TBD
 Text Notes 9850 5200 0    50   ~ 0
 Not OEM
 Text Notes 9850 4650 0    50   ~ 0
@@ -164,8 +162,6 @@ FUEL_RELAY
 Text Label 6875 1450 3    50   ~ 0
 FUEL_RELAY
 Text Label 7475 5575 2    50   ~ 0
-ALT_WARN
-Text Label 5550 6950 2    50   ~ 0
 ALT_WARN
 Text Label 7475 5275 2    50   ~ 0
 5V_SENS1
@@ -387,10 +383,10 @@ Text Label 6525 4975 2    50   ~ 0
 MAIN_RELAY_CONTROL
 Text Label 6525 5125 2    50   ~ 0
 12_MAIN_RELAY
-Text Label 6525 4825 2    50   ~ 0
+Text Label 6325 4825 2    50   ~ 0
 12_IGN_KEY
 Wire Wire Line
-	6675 4825 6525 4825
+	6475 4825 6325 4825
 Wire Wire Line
 	6525 5125 6675 5125
 Wire Wire Line
@@ -469,29 +465,16 @@ Wire Wire Line
 	3725 1375 3725 1575
 Wire Wire Line
 	3275 1375 3275 1575
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5E6B65A4
-P 5700 7050
-F 0 "J3" H 5780 7046 50  0000 L CNN
-F 1 "Conn_01x01" H 5780 7001 50  0001 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5700 7050 50  0001 C CNN
-F 3 "~" H 5700 7050 50  0001 C CNN
-	1    5700 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 7375 5475 7375
 Wire Wire Line
 	5475 7475 5150 7475
 Wire Wire Line
-	5150 7050 5500 7050
+	5150 7050 5725 7050
 Text Label 4900 5275 0    50   ~ 0
 J808_PC10
 Text Label 4900 5375 0    50   ~ 0
 J805_PC11
-Wire Wire Line
-	5150 6950 5550 6950
 Wire Wire Line
 	7625 5575 7475 5575
 Text Notes 550  7975 0    50   ~ 0
@@ -1238,7 +1221,7 @@ $EndComp
 Wire Wire Line
 	8125 1375 8125 1450
 Text Label 8125 1450 3    50   ~ 0
-UNSUED_HALL_REF_2.5V
+CRANK-
 Text Label 3475 1450 3    50   ~ 0
 ETB1
 Text Label 3925 1450 3    50   ~ 0
@@ -2591,7 +2574,7 @@ PumpRelay
 Wire Wire Line
 	2125 1725 2200 1725
 Text Label 2200 1725 0    50   ~ 0
-TBD
+GND7
 Wire Wire Line
 	2125 1825 2200 1825
 Text Label 2200 1825 0    50   ~ 0
@@ -2599,11 +2582,11 @@ CoilPakPin2
 Wire Wire Line
 	2125 1925 2200 1925
 Text Label 2200 1925 0    50   ~ 0
-EngineElectronicsRelay
+MainRelay
 Wire Wire Line
 	2125 2025 2200 2025
 Text Label 2200 2025 0    50   ~ 0
-TBD
+GND10
 Wire Wire Line
 	2125 2125 2200 2125
 Text Label 2200 2125 0    50   ~ 0
@@ -2611,11 +2594,11 @@ Trans
 Wire Wire Line
 	2125 2225 2200 2225
 Text Label 2200 2225 0    50   ~ 0
-O2gnd
+O2-1gnd
 Wire Wire Line
 	2125 2325 2200 2325
 Text Label 2200 2325 0    50   ~ 0
-O2sig
+O2-2sig
 Wire Wire Line
 	2125 2425 2200 2425
 Text Label 2200 2425 0    50   ~ 0
@@ -2643,7 +2626,7 @@ PWRmapaccel
 Wire Wire Line
 	2125 3025 2200 3025
 Text Label 2200 3025 0    50   ~ 0
-O2sen1Sig
+O2-1Sig
 Wire Wire Line
 	2125 3125 2200 3125
 Text Label 2200 3125 0    50   ~ 0
@@ -2667,19 +2650,17 @@ INJ3
 Wire Wire Line
 	2125 3625 2200 3625
 Text Label 2200 3625 0    50   ~ 0
-TBD
+TBD27
 Wire Wire Line
 	2125 3725 2200 3725
 Text Label 2200 3725 0    50   ~ 0
-O2sen1Heat
+O2-1Heat
 Wire Wire Line
 	2125 3825 2200 3825
 Text Label 2200 3825 0    50   ~ 0
 NC
 Wire Wire Line
 	2125 3925 2200 3925
-Text Label 2200 3925 0    50   ~ 0
-TBD
 Wire Wire Line
 	2125 4025 2200 4025
 Text Label 2200 4025 0    50   ~ 0
@@ -2727,7 +2708,7 @@ TPSpwr
 Wire Wire Line
 	2125 5125 2200 5125
 Text Label 2200 5125 0    50   ~ 0
-O2Sense1gnd
+O2-1SigGND
 Wire Wire Line
 	2125 5225 2200 5225
 Text Label 2200 5225 0    50   ~ 0
@@ -2747,7 +2728,7 @@ LeakDetect
 Wire Wire Line
 	2125 5625 2200 5625
 Text Label 2200 5625 0    50   ~ 0
-O2Sense2Heat
+O2-2Heat
 Wire Wire Line
 	2125 5725 2200 5725
 Text Label 2200 5725 0    50   ~ 0
@@ -2771,7 +2752,7 @@ CoilPakPin4
 Wire Wire Line
 	2125 6225 2200 6225
 Text Label 2200 6225 0    50   ~ 0
-TBD
+TBD53
 Wire Wire Line
 	2125 6325 2200 6325
 Text Label 2200 6325 0    50   ~ 0
@@ -2779,11 +2760,11 @@ BatteryPwr
 Wire Wire Line
 	2125 6425 2200 6425
 Text Label 2200 6425 0    50   ~ 0
-GND
+GND55
 Wire Wire Line
 	2125 6525 2200 6525
 Text Label 2200 6525 0    50   ~ 0
-GND
+GND56
 Wire Wire Line
 	2125 6625 2200 6625
 Text Label 2200 6625 0    50   ~ 0
@@ -2791,7 +2772,7 @@ Knock2
 Wire Wire Line
 	2125 6725 2200 6725
 Text Label 2200 6725 0    50   ~ 0
-GNDo2-2
+O2-2SigGND
 Wire Wire Line
 	2125 6825 2200 6825
 Text Label 2200 6825 0    50   ~ 0
@@ -2823,7 +2804,7 @@ VehicleSpeedSense
 Wire Wire Line
 	2125 7525 2200 7525
 Text Label 2200 7525 0    50   ~ 0
-O2Heat2
+O2-2HeatGND
 Wire Wire Line
 	2125 7625 2200 7625
 Text Label 2200 7625 0    50   ~ 0
@@ -2883,9 +2864,78 @@ TPS1
 Text Label 7650 6175 0    50   ~ 0
 CAM
 Text Label 2200 975  0    50   ~ 0
-GND
+GND1
 Wire Wire Line
 	2125 975  2200 975 
 Wire Wire Line
 	200  3275 200  3400
+Text Label 2200 3925 0    50   ~ 0
+TBD30
+Text Label 5725 7050 2    50   ~ 0
+O2Sense2Heat
+Wire Wire Line
+	5150 6950 5725 6950
+Text Label 5725 6950 2    50   ~ 0
+O2Sense1Heat
+Text Label 7625 5125 0    50   ~ 0
+PumpRelay
+Text Label 6525 6625 2    50   ~ 0
+AT4_UNUSED
+Wire Wire Line
+	6525 6625 6675 6625
+Text Label 6675 6625 0    50   ~ 0
+EGRtemp
+Text Label 6675 6750 0    50   ~ 0
+RPMgnd
+Text Label 6675 6875 0    50   ~ 0
+RPMsig
+Wire Wire Line
+	6525 6750 6675 6750
+Wire Wire Line
+	6525 6875 6675 6875
+Text Label 6525 6875 2    50   ~ 0
+CRANK+
+Text Label 6525 6750 2    50   ~ 0
+CRANK-
+$Comp
+L power:GND #PWR?
+U 1 1 5F81FA4E
+P 3125 7775
+F 0 "#PWR?" H 3125 7525 50  0001 C CNN
+F 1 "GND" H 3130 7602 50  0000 C CNN
+F 2 "" H 3125 7775 50  0001 C CNN
+F 3 "" H 3125 7775 50  0001 C CNN
+	1    3125 7775
+	1    0    0    -1  
+$EndComp
+Text Label 3125 6775 0    50   ~ 0
+GND1
+Text Label 3125 6975 0    50   ~ 0
+GND10
+Text Label 3125 6875 0    50   ~ 0
+GND7
+Text Label 3125 7075 0    50   ~ 0
+MAFgnd
+Text Label 3125 7175 0    50   ~ 0
+O2-1SigGND
+Text Label 3125 7275 0    50   ~ 0
+GNDsense
+Text Label 3125 7375 0    50   ~ 0
+GNDswitches
+Text Label 3125 7475 0    50   ~ 0
+GND55
+Text Label 3125 7575 0    50   ~ 0
+GND56
+Text Label 3125 7675 0    50   ~ 0
+O2-2SigGND
+Text Label 3125 7775 0    50   ~ 0
+O2-2HeatGND
+Wire Wire Line
+	3125 7775 3125 6775
+Text Label 6675 4975 0    50   ~ 0
+MainRelay
+Text Label 6475 4825 0    50   ~ 0
+StartRunPwr
+Text Label 6675 5275 0    50   ~ 0
+BatteryPwr
 $EndSCHEMATC
