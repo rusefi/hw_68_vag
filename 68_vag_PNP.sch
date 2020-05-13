@@ -2650,7 +2650,7 @@ INJ3
 Wire Wire Line
 	2125 3625 2200 3625
 Text Label 2200 3625 0    50   ~ 0
-TBD27
+IACTBM1
 Wire Wire Line
 	2125 3725 2200 3725
 Text Label 2200 3725 0    50   ~ 0
@@ -2752,7 +2752,7 @@ CoilPakPin4
 Wire Wire Line
 	2125 6225 2200 6225
 Text Label 2200 6225 0    50   ~ 0
-TBD53
+IACTBM2
 Wire Wire Line
 	2125 6325 2200 6325
 Text Label 2200 6325 0    50   ~ 0
@@ -2938,4 +2938,16 @@ Text Label 6475 4825 0    50   ~ 0
 StartRunPwr
 Text Label 6675 5275 0    50   ~ 0
 BatteryPwr
+Text Label 6675 7000 0    50   ~ 0
+IACTBM1
+Text Label 6675 7125 0    50   ~ 0
+IACTBM2
+Wire Wire Line
+	6525 7000 6675 7000
+Wire Wire Line
+	6525 7125 6675 7125
+Text Label 6525 7125 2    50   ~ 0
+ETB2
+Text Label 6525 7000 2    50   ~ 0
+ETB1
 $EndSCHEMATC
