@@ -2,3 +2,5 @@
 *.sch-bak
 /68_vag_PNP-cache.lib
 /fp-info-cache
+*.dsn
+*.ses

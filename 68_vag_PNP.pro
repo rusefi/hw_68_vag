@@ -1,4 +1,4 @@
-update=6/14/2020 9:38:47 AM
+update=6/14/2020 9:52:25 AM
 version=1
 last_client=kicad
 [general]
@@ -261,7 +261,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2032
+Clearance=0.1778
 TrackWidth=0.2032
 ViaDiameter=0.6
 ViaDrill=0.3
@@ -272,7 +272,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=12v
-Clearance=0.2032
+Clearance=0.1778
 TrackWidth=0.59944
 ViaDiameter=0.6
 ViaDrill=0.3
@@ -283,7 +283,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=1A_EXTERNAL_1oz
-Clearance=0.2032
+Clearance=0.1778
 TrackWidth=0.3048
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -294,8 +294,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=INJ
-Clearance=0.2032
-TrackWidth=0.6096
+Clearance=0.1778
+TrackWidth=0.5334
 ViaDiameter=1
 ViaDrill=0.4
 uViaDiameter=0.508
