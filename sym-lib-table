@@ -6,4 +6,5 @@
   (lib (name rusEFI_Logo)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/logo.lib)(options "")(descr ""))
   (lib (name rusFEI_966595-1)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/966595-1.lib)(options "")(descr ""))
   (lib (name rusFEI_963356-1)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/963356-1.lib)(options "")(descr ""))
+  (lib (name Off_Road_Disclaimer)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/Off_Road_Disclaimer.lib)(options "")(descr ""))
 )
