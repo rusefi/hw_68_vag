@@ -30,8 +30,13 @@ import logging
 
 # JLC requires columns to be named a certain way.
 HEADER_REPLACEMENT_TABLE={
-  "Center-X(mm)": "Mid X",
-  "Center-Y(mm)": "Mid Y",
+  "Ref": "Designator",
+  "Val": "Val",
+  "Package": "PackageReference",
+  "PosX": "Mid X",
+  "PosY": "Mid Y",
+  "Rot": "Rotation",
+  "Side": "Layer",
 }
 
 ROW_REPLACEMENT_TABLE={
