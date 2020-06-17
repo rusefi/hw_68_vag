@@ -142,7 +142,7 @@ def main():
 
 	logging.info("CPL file found at: {}".format(cpl_path))
 
-	cpl_output_path = os.path.join(opts.output_dir, project_name + "_cpl_jlc.csv")
+	cpl_output_path = os.path.join(opts.output_dir, project_name + "_JLC_CPL.csv")
 
 	db = ReadDB(opts.database)
 	if FixRotations(cpl_path, cpl_output_path, db):
