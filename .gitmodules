@@ -1,3 +1,6 @@
 [submodule "kicad-libraries"]
 	path = kicad-libraries
 	url = https://github.com/rusefi/kicad-libraries.git
+[submodule "export/InteractiveHtmlBom"]
+	path = export/InteractiveHtmlBom
+	url = https://github.com/openscopeproject/InteractiveHtmlBom.git
