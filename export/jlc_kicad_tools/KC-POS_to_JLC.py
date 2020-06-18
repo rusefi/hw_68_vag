@@ -66,15 +66,15 @@ def FixRotations(input_filename, output_filename, db):
       if not package_index:
         # This is the first row. Find "Package" and "Rot" column indices.
         for i in range(len(row)):
-          if row[i] == "PackageReference":
+          if row[i] == "Package":
             package_index = i
-          elif row[i] == "Rotation":
+          elif row[i] == "Rot":
             rotation_index = i
         if package_index is None:
-          logging.warning("Failed to find 'PackageReference' column in the csv file")
+          logging.warning("Failed to find 'Package' column in the csv file")
           return False
         if rotation_index is None:
-          logging.warning("Failed to find 'Rotation' column in the csv file")
+          logging.warning("Failed to find 'Rot' column in the csv file")
           return False
         # Replace column names with labels JLC wants.
         for i in range(len(row)):
