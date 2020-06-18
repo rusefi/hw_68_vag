@@ -23,10 +23,6 @@ import argparse
 import logging
 import errno
 
-import pathlib
-
-current_dir = pathlib.Path(__file__).parent
-
 import tkinter as tk
 from tkinter import filedialog
 import getpass
@@ -148,7 +144,8 @@ def main():
 	for dir_name, subdir_list, file_list in os.walk(opts.project_dir):
 		for file_name in file_list:
 			if file_name == cpl_filename:
-				cpl_path = os.path.join(dir_name, file_name)
+				#cpl_path = os.path.join(dir_name, file_name)
+				cpl_path = file_name
 
 	if cpl_path is None:
 		logging.error((
